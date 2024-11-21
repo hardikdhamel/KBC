@@ -1,0 +1,67 @@
+body{
+    background-image: url("kbc.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container{
+    display: flex;
+}
+
+.quiz-container {
+    /* overflow: hidden; */
+    max-width: 600px;
+    margin: 20px;
+    text-align: center;
+    color: blueviolet;
+    padding-top: 225px;
+    width: 50%;
+}
+
+.question {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    color: darkorange;
+    text-size-adjust: 25px;
+}
+
+.options button{
+    display:block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(46, 43, 226);
+    border-color: red;
+    font-size: large;
+}
+
+.options button:active{
+    background-color: green;
+}
+
+.lifelines button {
+    margin-top: 20px;
+    color: black;
+    background-color: purple;
+    font-size: large;
+    border-color: rgb(0, 213, 255);
+}
+
+.lifelines button:active::after{
+    background-color: red;
+}
+
+.prize-container {
+    overflow: hidden;
+    max-width: 600px;
+    margin: 0 0 0 500px;
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(43, 186, 226);
+    width: 20%;
+    background-color: yellow;
+    border-radius: 8px;
+    border: 15px solid white;
+    font-size: medium;
+}
